@@ -20,8 +20,8 @@ SCRIPT
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.hostname = "{{ name }}-#{CURRENT_USER}"
 
-  config.vm.box = "precise32"
-  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.box = "centos65"
+  config.vm.box_url = "http://boxes.stackstrap.org/virtualbox/centos65-saltlatest.box"
 
   config.vm.network :public_network
 
