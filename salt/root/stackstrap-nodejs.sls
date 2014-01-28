@@ -7,9 +7,9 @@ include:
   - nvmnode
   - nginx
 
-#mongodb:
-#  pkg:
-#    - installed
+mongodb:
+  pkg:
+    - installed
 
 /etc/nginx/conf.d/node.conf:
   file:
